@@ -4,4 +4,6 @@
 
 ## 笔记文档
 
+* [0003_Cross_Compiler_Tools.md](./docs/0003_Cross_Compiler_Tools.md)：怎么生成交叉工具链；
+* [0002_define.md](./docs/0002_define.md)：常用宏定义使用；
 * [0001_Coding_Style.md](./docs/0001_Coding_Style.md)：代码格式太蓝看的话，可能不会有人来帮你看Bug；
