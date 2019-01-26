@@ -8,6 +8,8 @@
 
 ## 笔记文档
 
+* [0006_bootargs_Module_Param.md](./docs/0006_bootargs_Module_Param.md)：bootargs参数中那么多，到底是给谁的；
+* [0005_devfs_udev.md](./docs/0005_devfs_udev.md)：设备节点自动生成到底是谁在维护；
 * [0004_GPL.md](./docs/0004_GPL.md)：你用了有Linux内核的系统，也许你就可以要求要内核源代码，不过能不能看懂是另外一回事；
 * [0003_Cross_Compiler_Tools.md](./docs/0003_Cross_Compiler_Tools.md)：怎么生成交叉工具链；
 * [0002_define.md](./docs/0002_define.md)：常用宏定义使用；
