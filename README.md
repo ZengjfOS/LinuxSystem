@@ -8,6 +8,7 @@
 
 ## 笔记文档
 
+* [0007_Interrupt.md](./docs/0007_Interrupt.md)：驱动是为了操作硬件，硬件和软件之间的神经——中断；
 * [0006_bootargs_Module_Param.md](./docs/0006_bootargs_Module_Param.md)：bootargs参数中那么多，到底是给谁的；
 * [0005_devfs_udev.md](./docs/0005_devfs_udev.md)：设备节点自动生成到底是谁在维护；
 * [0004_GPL.md](./docs/0004_GPL.md)：你用了有Linux内核的系统，也许你就可以要求要内核源代码，不过能不能看懂是另外一回事；
