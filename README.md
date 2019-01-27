@@ -5,9 +5,11 @@
 ## 参考文档
 
 * [Welcome to The Linux Kernel’s documentation](https://www.kernel.org/doc/html/v4.11/index.html)
+* 书籍：Linux设备驱动开发详解 基于最新的Linux 4.0内核
 
 ## 笔记文档
 
+* [0008_Memory_Access.md](./docs/0008_Memory_Access.md)：I2C/SPI/USB/GPIO等各种控制器寄存器如何访问；
 * [0007_Interrupt.md](./docs/0007_Interrupt.md)：驱动是为了操作硬件，硬件和软件之间的神经——中断；
 * [0006_bootargs_Module_Param.md](./docs/0006_bootargs_Module_Param.md)：bootargs参数中那么多，到底是给谁的；
 * [0005_devfs_udev.md](./docs/0005_devfs_udev.md)：设备节点自动生成到底是谁在维护；
