@@ -9,6 +9,7 @@
 
 ## 笔记文档
 
+* [0009_Device_Tree.md](./docs/0009_Device_Tree.md)：外设控制器、外设与驱动的衔接——设备树；
 * [0008_Memory_Access.md](./docs/0008_Memory_Access.md)：I2C/SPI/USB/GPIO等各种控制器寄存器如何访问；
 * [0007_Interrupt.md](./docs/0007_Interrupt.md)：驱动是为了操作硬件，硬件和软件之间的神经——中断；
 * [0006_bootargs_Module_Param.md](./docs/0006_bootargs_Module_Param.md)：bootargs参数中那么多，到底是给谁的；
