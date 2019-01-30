@@ -1,8 +1,10 @@
 # Device Tree
 
+![images/dts_full_screen.jpg](images/dts_full_screen.jpg)
+
 ## 参考文档
 
-* [LinuxDTS](https://github.com/ZengjfOS/LinuxDTS)
+* [LinuxDTS](https://github.com/ZengjfOS/LinuxDTS)：相对于以前的板级文件的配置，Linux内核设备树（dts）成为了主流，记录学习过程。
 * [Dynamic Device Tree](https://github.com/ZengjfOS/RaspberryPi/blob/master/docs/0012_Dynamic_Device_Tree.md)
 
 ## 简要说明
