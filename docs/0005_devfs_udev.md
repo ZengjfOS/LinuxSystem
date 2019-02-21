@@ -22,3 +22,43 @@ devfs有优点，不过还是属于被淘汰的方式，被udev取代；
 * udev编写规则：https://zh.wikipedia.org/wiki/Udev#%E7%BC%96%E5%86%99%E8%A7%84%E5%88%99；
 * 在嵌入式系统中，也可以用udev的轻量级把本mdev，mdev集成于busybox中；
 * Android也没有采用udev，它采用了vold。vold的机制和udev是一样的，理解了udev，也就理解了vold；
+
+## udev rules 
+
+树莓派`/etc/udev/rules.d/99-com.rules`：
+
+```
+SUBSYSTEM=="input", GROUP="input", MODE="0660"
+SUBSYSTEM=="i2c-dev", GROUP="i2c", MODE="0660"
+SUBSYSTEM=="spidev", GROUP="spi", MODE="0660"
+SUBSYSTEM=="bcm2835-gpiomem", GROUP="gpio", MODE="0660"
+
+SUBSYSTEM=="gpio", GROUP="gpio", MODE="0660"
+SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c '\
+        chown -R root:gpio /sys/class/gpio && chmod -R 770 /sys/class/gpio;\
+        chown -R root:gpio /sys/devices/virtual/gpio && chmod -R 770 /sys/devices/virtual/gpio;\
+        chown -R root:gpio /sys$devpath && chmod -R 770 /sys$devpath\
+'"
+
+KERNEL=="ttyAMA[01]", PROGRAM="/bin/sh -c '\
+        ALIASES=/proc/device-tree/aliases; \
+        if cmp -s $ALIASES/uart0 $ALIASES/serial0; then \
+                echo 0;\
+        elif cmp -s $ALIASES/uart0 $ALIASES/serial1; then \
+                echo 1; \
+        else \
+                exit 1; \
+        fi\
+'", SYMLINK+="serial%c"
+
+KERNEL=="ttyS0", PROGRAM="/bin/sh -c '\
+        ALIASES=/proc/device-tree/aliases; \
+        if cmp -s $ALIASES/uart1 $ALIASES/serial0; then \
+                echo 0; \
+        elif cmp -s $ALIASES/uart1 $ALIASES/serial1; then \
+                echo 1; \
+        else \
+                exit 1; \
+        fi \
+'", SYMLINK+="serial%c"
+```

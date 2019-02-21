@@ -13,6 +13,7 @@
 
 文档名称(docs目录下) | 简述
 :------|:-----
+[0033_V4L2.md](docs/0033_V4L2.md)                                             | 分析V4L2的架构，其中包括显示部分和摄像头部分
 [0032_ASoC.md](docs/0032_ASoC.md)                                             | 分析i.MX6 CS42888 ASoC驱动工作原理
 [0031_FPGA.md](docs/0031_FPGA.md)                                             | FPGA PCIe驱动开发笔记（私有，非公开仓库）
 [0030_Ending_Align.md](docs/0030_Ending_Align.md)                             | 将文件每行填充空格到一定列数，个人分析代码调用流程最喜欢的工具；
