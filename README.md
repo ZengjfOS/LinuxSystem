@@ -9,11 +9,13 @@
 * [The Linux Kernel Archives](https://www.kernel.org/)
 * [Linux Kernel GitHub](https://github.com/torvalds/linux)
 * [Freescale Android Source Code](https://source.codeaurora.org/external/imx)
+* [i.MX Driver Test Application Software](https://source.codeaurora.org/external/imx/imx-test/)
 
 ## 文档索引
 
 文档名称(docs目录下) | 简述
 :------|:-----
+[0035_Android-Studio_NDK.md](docs/0035_Android-Studio_NDK.md)                 | OpenCV 3.4.2 For Android
 [0034_SELinux.md](docs/0034_SELinux.md)                                       | Android SELinux是如何使用的？
 [0033_V4L2.md](docs/0033_V4L2.md)                                             | 分析V4L2的架构，其中包括显示部分和摄像头部分
 [0032_ASoC.md](docs/0032_ASoC.md)                                             | 分析i.MX6 CS42888 ASoC驱动工作原理
