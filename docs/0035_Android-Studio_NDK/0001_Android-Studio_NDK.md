@@ -8,6 +8,8 @@
   * `gradlew compileDebug --stacktrace`
 * OpenCV 3.4.2
 * NDK r17c
+* [google samples android-ndk](https://github.com/googlesamples/android-ndk)
+* [android ndk hello libs](https://github.com/googlesamples/android-ndk/tree/master/hello-libs)
 
 ## 参考文档
 
@@ -140,3 +142,9 @@ Android Studio IDE右侧有一个`Build Variants`可以进行选择，这几个�
   ndk.dir=D\:\\Software\\androidStudio\\sdk\\android-ndk-r17c
   sdk.dir=D\:\\Software\\androidStudio\\sdk
   ```
+
+## Boost库
+
+* http://silverglint.com/boost-for-android/
+* https://github.com/dec1/Boost-for-Android/releases
+* https://github.com/dec1/Boost-for-Android/tree/master/example_app
