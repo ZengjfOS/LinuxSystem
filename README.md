@@ -15,7 +15,8 @@
 
 文档名称(docs目录下) | 简述
 :------|:-----
-[0035_Android-Studio_NDK](docs/0035_Android-Studio_NDK/README.md)             | OpenCV 3.4.2 For Android
+[0036_dump_stack.md](docs/0036_dump_stack.md)                                 | Linux Kernel获取函数调用栈
+[0035_Android-Studio_NDK](docs/0035_Android-Studio_NDK/README.md)             | OpenGL JNI For Android
 [0034_SELinux.md](docs/0034_SELinux.md)                                       | Android SELinux是如何使用的？
 [0033_V4L2.md](docs/0033_V4L2.md)                                             | 分析V4L2的架构，其中包括显示部分和摄像头部分
 [0032_ASoC.md](docs/0032_ASoC.md)                                             | 分析i.MX6 CS42888 ASoC驱动工作原理

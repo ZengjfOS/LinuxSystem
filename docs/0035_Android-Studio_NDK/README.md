@@ -4,6 +4,7 @@
 
 ## 文档
 
+* [0007_Android_Source_Build_With_External_Lib.md](0007_Android_Source_Build_With_External_Lib.md)
 * [0006_to_string_missing.md](0006_to_string_missing.md)：ndk缺少`to_string`库
 * [0005_xml2.md](0005_xml2.md)：移植xml2
 * [0004_assimp.md](0004_assimp.md)：移植assimp
