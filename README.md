@@ -15,6 +15,7 @@
 
 文档名称(docs目录下) | 简述
 :------|:-----
+[0040_DebugHAT](https://github.com/ZengjfOS/DebugHAT)                         | 树莓派、Khadas VIM3扩展板，主要是添加风扇、UART口转成USB口两个功能，方便使用
 [0039_i2cReg](https://github.com/ZengjfOS/i2cReg)                             | 依赖于i2c-tools，i2c设备寄存器读写工具，含Android、Linux版本
 [0038_batTool](https://github.com/ZengjfOS/batTool)                           | i.MX8烧录工具
 [0037_iio-tools](https://github.com/ZengjfOS/iio-tools)                       | iio tools用于iio设备调试
